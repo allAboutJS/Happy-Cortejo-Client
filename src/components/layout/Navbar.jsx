@@ -2,7 +2,12 @@ import { Menu, Phone, X } from "lucide-react";
 import { useEffect } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/Button";
-import { NAV_LINKS, WHATSAPP_MESSAGE, WHATSAPP_URL } from "@/constants";
+import {
+	APP_NAME,
+	NAV_LINKS,
+	WHATSAPP_MESSAGE,
+	WHATSAPP_URL,
+} from "@/constants";
 import { cn } from "@/lib/cn";
 import { useUIStore } from "@/state/store";
 
@@ -39,7 +44,7 @@ export function Navbar() {
 						<Link
 							to="/"
 							className="flex items-center gap-3 group"
-							aria-label="Happy Cortejo Home"
+							aria-label={APP_NAME}
 						>
 							<div className="w-9 h-9 rounded-xl bg-(--color-navy) flex items-center justify-center shrink-0 group-hover:bg-(--color-gold) transition-colors duration-200">
 								<span className="text-white font-display font-bold text-sm">
@@ -48,7 +53,7 @@ export function Navbar() {
 							</div>
 							<div className="hidden sm:block">
 								<span className="font-display text-lg font-bold text-(--color-navy) leading-tight block">
-									Happy Cortejo
+									{APP_NAME}
 								</span>
 								<span className="text-[10px] text-(--color-muted) font-body tracking-wider uppercase leading-none">
 									Portugal Travel
@@ -80,9 +85,11 @@ export function Navbar() {
 						</nav>
 
 						{/* Desktop CTA */}
-						<Button as={Link} to="/book" variant="primary" size="sm">
-							Book a Ride
-						</Button>
+						<div className="max-lg:hidden">
+							<Button as={Link} to="/book" variant="primary" size="sm">
+								Book a Ride
+							</Button>
+						</div>
 
 						{/* Mobile toggle */}
 						<button

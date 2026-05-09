@@ -6,20 +6,25 @@ import { Input, Select, Textarea } from "@/components/forms/FormFields";
 import { Button } from "@/components/ui/Button";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { Container, Section } from "@/components/ui/SectionHeader";
-import { WHATSAPP_MESSAGE, WHATSAPP_URL } from "@/constants";
+import {
+	APP_EMAIL,
+	WHATSAPP_MESSAGE,
+	WHATSAPP_NUMBER,
+	WHATSAPP_URL,
+} from "@/constants";
 
 const contactInfo = [
 	{
 		icon: Phone,
 		label: "WhatsApp",
-		value: "+351 912 345 678",
+		value: WHATSAPP_NUMBER,
 		href: `${WHATSAPP_URL}?text=${WHATSAPP_MESSAGE}`,
 	},
 	{
 		icon: Mail,
 		label: "Email",
-		value: "hello@happycortejo.com",
-		href: "mailto:hello@happycortejo.com",
+		value: APP_EMAIL,
+		href: `mailto:${APP_EMAIL}`,
 	},
 	{
 		icon: MapPin,

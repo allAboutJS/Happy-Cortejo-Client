@@ -8,10 +8,12 @@ import {
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import {
+	APP_EMAIL,
 	APP_NAME,
 	APP_TAGLINE,
 	NAV_LINKS,
 	WHATSAPP_MESSAGE,
+	WHATSAPP_NUMBER,
 	WHATSAPP_URL,
 } from "@/constants";
 
@@ -122,18 +124,16 @@ export function Footer() {
 										size={16}
 										className="mt-0.5 shrink-0 group-hover:text-(--color-gold)"
 									/>
-									<span className="text-sm font-body">+351 912 345 678</span>
+									<span className="text-sm font-body">{WHATSAPP_NUMBER}</span>
 								</a>
 							</li>
 							<li>
 								<a
-									href="mailto:hello@happycortejo.com"
+									href={`mailto:${APP_EMAIL}`}
 									className="flex items-start gap-3 text-gray-400 hover:text-(--color-gold) transition-colors group"
 								>
 									<Mail size={16} className="mt-0.5 shrink-0" />
-									<span className="text-sm font-body">
-										hello@happycortejo.com
-									</span>
+									<span className="text-sm font-body">{APP_EMAIL}</span>
 								</a>
 							</li>
 							<li>

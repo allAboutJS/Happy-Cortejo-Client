@@ -1,6 +1,6 @@
 import { Car, Clock, Globe, Heart, ShieldCheck, Tags } from "lucide-react";
 import { Container, Section } from "@/components/ui/SectionHeader";
-import { WHY_US } from "@/constants";
+import { APP_NAME, WHY_US } from "@/constants";
 
 const iconMap = { ShieldCheck, Heart, Tags, Clock, Car, Globe };
 
@@ -76,8 +76,8 @@ export function WhyUsSection() {
 							<span className="block text-(--color-gold)">An Experience.</span>
 						</h2>
 						<p className="text-(--color-muted) font-body text-lg leading-relaxed mb-10">
-							Happy Cortejo was built for travelers who value their time,
-							comfort, and peace of mind. We don't cut corners.
+							{APP_NAME} was built for travelers who value their time, comfort,
+							and peace of mind. We don't cut corners.
 						</p>
 						<div className="grid grid-cols-1 gap-8">
 							{WHY_US.map((item) => (
