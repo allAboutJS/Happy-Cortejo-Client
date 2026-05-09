@@ -80,22 +80,9 @@ export function Navbar() {
 						</nav>
 
 						{/* Desktop CTA */}
-						<div className="hidden lg:flex items-center gap-3">
-							<Button
-								as="a"
-								href={`${WHATSAPP_URL}?text=${WHATSAPP_MESSAGE}`}
-								target="_blank"
-								rel="noopener noreferrer"
-								variant="whatsapp"
-								size="sm"
-							>
-								<Phone size={15} />
-								WhatsApp
-							</Button>
-							<Button as={Link} to="/book" variant="primary" size="sm">
-								Book a Ride
-							</Button>
-						</div>
+						<Button as={Link} to="/book" variant="primary" size="sm">
+							Book a Ride
+						</Button>
 
 						{/* Mobile toggle */}
 						<button

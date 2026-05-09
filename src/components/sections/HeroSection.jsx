@@ -2,6 +2,7 @@ import { ChevronRight, Clock, Phone, Shield, Star } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/Button";
 import { WHATSAPP_MESSAGE, WHATSAPP_URL } from "@/constants";
+import backgroundImage from "/images/photo-1558618666-fcd25c85cd64.jpg";
 
 export function HeroSection() {
 	return (
@@ -10,7 +11,7 @@ export function HeroSection() {
 			<div
 				className="absolute inset-0 bg-cover bg-center bg-no-repeat"
 				style={{
-					backgroundImage: `url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&q=80')`,
+					backgroundImage: `url(${backgroundImage})`,
 				}}
 				aria-hidden="true"
 			/>

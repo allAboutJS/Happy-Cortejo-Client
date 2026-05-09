@@ -53,7 +53,7 @@ export function AirportTransfersPage() {
 				badge="Airport Transfers"
 				title="Stress-Free Airport Rides Across Portugal"
 				subtitle="Private transfers to and from all major Portuguese airports. Flight tracked, driver waiting, bags handled."
-				image="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&q=80"
+				image="/images/photo-1436491865332-7a61a109cc05.jpg"
 			/>
 
 			<Section className="bg-(--color-cream)">

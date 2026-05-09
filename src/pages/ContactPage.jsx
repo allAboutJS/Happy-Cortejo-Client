@@ -69,6 +69,7 @@ export function ContactPage() {
 				badge="Contact Us"
 				title="Let's Talk About Your Journey"
 				subtitle="We respond fast. Message us on WhatsApp for the quickest reply."
+				image="/images/receptionists-5975962_1280.jpg"
 			/>
 
 			<Section className="bg-(--color-cream)">

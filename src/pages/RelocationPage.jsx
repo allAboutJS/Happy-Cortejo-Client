@@ -38,7 +38,7 @@ export function RelocationPage() {
 				badge="Relocation Concierge"
 				title="Moving to Portugal? We Make It Smoother."
 				subtitle="Expats trust us to handle the transport side of relocation — from arrival day to settled life."
-				image="https://images.unsplash.com/photo-1513407030348-c983a97b98d8?w=1200&q=80"
+				image="/images/photo-1513407030348-c983a97b98d8.jpg"
 			/>
 
 			<Section className="bg-(--color-cream)">
@@ -104,7 +104,7 @@ export function RelocationPage() {
 						</div>
 						<div className="rounded-2xl overflow-hidden aspect-square shadow-card">
 							<img
-								src="https://images.unsplash.com/photo-1513407030348-c983a97b98d8?w=600&q=75"
+								src="/images/photo-1513407030348-c983a97b98d8.jpg"
 								alt="Moving to Lisbon, Portugal"
 								className="w-full h-full object-cover"
 								loading="lazy"

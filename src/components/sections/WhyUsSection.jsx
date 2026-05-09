@@ -33,7 +33,7 @@ export function WhyUsSection() {
 					<div className="relative order-2 lg:order-1">
 						<div className="relative rounded-2xl overflow-hidden aspect-4/3 shadow-elevated">
 							<img
-								src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=800&q=80"
+								src="/images/photo-1449965408869-eaa3f722e40d.jpg"
 								alt="Professional chauffeur with premium vehicle in Lisbon"
 								className="w-full h-full object-cover"
 								loading="lazy"

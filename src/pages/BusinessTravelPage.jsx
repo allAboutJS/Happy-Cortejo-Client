@@ -76,7 +76,7 @@ export function BusinessTravelPage() {
 				badge="Business Travel"
 				title="Professional Transport for Corporate Clients"
 				subtitle="Reliable, discreet, and fully coordinated business travel services across Portugal."
-				image="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80"
+				image="/images/photo-1521791136064-7986c2920216.jpg"
 			/>
 
 			<Section className="bg-(--color-cream)">

@@ -43,7 +43,7 @@ export function Footer() {
 							Premium private transportation across Portugal. Reliable,
 							professional, and genuinely human.
 						</p>
-						<div className="flex gap-3">
+						{/* <div className="flex gap-3">
 							{[
 								{ icon: Instagram, href: "#", label: "Instagram" },
 								{ icon: Twitter, href: "#", label: "Twitter" },
@@ -58,7 +58,7 @@ export function Footer() {
 									<Icon size={16} />
 								</a>
 							))}
-						</div>
+						</div>*/}
 					</div>
 
 					{/* Services */}

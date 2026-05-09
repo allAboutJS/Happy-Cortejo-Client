@@ -17,8 +17,7 @@ const tours = [
 			"Explore the fairy-tale palaces and lush gardens of UNESCO-listed Sintra. We wait, you explore.",
 		duration: "Full day",
 		distance: "40 min from Lisbon",
-		image:
-			"https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=600&q=75",
+		image: "/images/photo-1555881400-74d7acaacd8b.jpg",
 		popular: true,
 	},
 	{
@@ -27,8 +26,7 @@ const tours = [
 			"Discover charming fishing villages, dramatic sea cliffs, and the beautiful Cascais waterfront.",
 		duration: "Half or full day",
 		distance: "45 min from Lisbon",
-		image:
-			"https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=600&q=75",
+		image: "/images/photo-1552832230-c0197dd311b5.jpg",
 		popular: false,
 	},
 	{
@@ -37,8 +35,7 @@ const tours = [
 			"Roll through golden plains and visit world-class wineries in Portugal's finest wine region.",
 		duration: "Full day",
 		distance: "1h 30 min from Lisbon",
-		image:
-			"https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=75",
+		image: "/images/photo-1506905925346-21bda4d32df4.jpg",
 		popular: false,
 	},
 	{
@@ -47,8 +44,7 @@ const tours = [
 			"Step inside the perfectly preserved medieval walls of Óbidos and enjoy ginjinha in a chocolate cup.",
 		duration: "Half day",
 		distance: "1h from Lisbon",
-		image:
-			"https://images.unsplash.com/photo-1580537659466-0a9bfa916a54?w=600&q=75",
+		image: "/images/photo-1580537659466-0a9bfa916a54.jpg",
 		popular: true,
 	},
 ];
@@ -60,7 +56,7 @@ export function ToursPage() {
 				badge="Tours & Day Trips"
 				title="Discover Portugal at Your Own Pace"
 				subtitle="Private day excursions from Lisbon with a dedicated driver. No groups, no rush — just you and the road."
-				image="https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=1200&q=80"
+				image="/images/photo-1555881400-74d7acaacd8b.jpg"
 			/>
 
 			<Section className="bg-(--color-cream)">

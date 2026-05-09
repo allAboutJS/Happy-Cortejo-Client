@@ -58,7 +58,7 @@ export function SubscriptionPage() {
 				badge="Subscription Chauffeur"
 				title="Your Personal Driver. Every Month."
 				subtitle="Stop booking one-off rides. Get a monthly plan with a consistent driver, predictable pricing, and zero friction."
-				image="https://images.unsplash.com/photo-1590362891991-f776e747a588?w=1200&q=80"
+				image="/images/photo-1590362891991-f776e747a588.jpg"
 			/>
 
 			<Section className="bg-(--color-cream)">
