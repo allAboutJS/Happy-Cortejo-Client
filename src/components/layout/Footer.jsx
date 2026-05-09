@@ -1,10 +1,10 @@
 import {
-	Instagram,
-	Linkedin,
+	// Instagram,
+	// Linkedin,
 	Mail,
 	MapPin,
 	Phone,
-	Twitter,
+	// Twitter,
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import {
